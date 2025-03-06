@@ -49,8 +49,7 @@ import RiggedMotionpng from './assets/RiggedMotionStudio.png';
         link="https://rigged-motion.com/#/"
       />
     </main>
-    <ContactSection />
-
+    <ContactSection id="contact" />
     <Footer />
   </div>
 </template>
