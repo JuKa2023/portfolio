@@ -43,16 +43,16 @@ setDescription('Hierbei handelt es sich um einen überblick dreier meiner besten
       <section id="projects" class="mx-auto py-24 space-y-24">
         <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">Meine Projekte</h2>
         <ProjectCard
-          title="Data Story on Train Delays"
-          description="Zugverspätung & Wetter ist eine Webanwendung, die analysiert, wie sich die Wetterbedingungen auf Zugverspätungen in der Schweiz auswirken. Benutzer können interaktive Diagramme und Schlüsselstatistiken erforschen, um Muster und Korrelationen aufzudecken, die Einblicke für Pendler und Planer bieten."
+          title="Datengeschichte über Zugverspätungen"
+          description="Die Datengeschichte ist eine Webanwendung, die den Zusammenhang zwischen Wetterbedingungen und Zugverspätungen in der Schweiz analysiert. Interaktive Diagramme und aussagekräftige Statistiken ermöglichen es Nutzern, Muster und Zusammenhänge auf einfache Weise zu entdecken, was insbesondere Pendlern und Verkehrsplanern wertvolle Einblicke bietet."
           :tags="['MariaDB', 'Tailwind CSS', 'Chart.js', 'APIs']"
           :image="DataStorypng"
-          link="https://train-delay.juka.dev/"
+          link="https://im3julie.rigged-motion.com/"
           github="https://github.com/JuKa2023/im3-train-delay-analysis"
         />
         <ProjectCard
-          title="Date Idea Finder"
-          description="Date Idea ist eine Webanwendung, die Nutzern hilft, auf ihre Vorlieben zugeschnittene Verabredungsideen zu finden. Egal, ob Sie nach einem romantischen Abendessen, einem abenteuerlichen Ausflug oder einem gemütlichen Abend zu Hause suchen, Date Idea hat alles für Sie."
+          title="Date Idee Finder"
+          description="Date Idee Finder ist eine Webanwendung, die dir hilft, kreative Verabredungsideen zu finden, die genau zu deinen Vorlieben passen. Egal, ob du ein romantisches Abendessen, einen abenteuerlichen Ausflug oder einen gemütlichen Abend zu Hause planst – Date Idee Finder hat für jede Stimmung die passende Idee für dich."
           :tags="['Vue.js', 'Supabase']"
           :image="DateIdeapng"
           link="https://juka2023.github.io/date-finder/"
