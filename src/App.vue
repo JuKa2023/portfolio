@@ -42,7 +42,7 @@ setDescription('Hierbei handelt es sich um einen überblick dreier meiner besten
     <HeroSection />
     <main class="flex-grow">
       <section id="projects" class="container mx-auto px-6 py-16 space-y-24">
-        <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">My Projects</h2>
+        <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">My Projects</h2>
         <ProjectCard
           title="Data Story on Train Delays"
           description="Zugverspätung & Wetter ist eine Webanwendung, die analysiert, wie sich die Wetterbedingungen auf Zugverspätungen in der Schweiz auswirken. Benutzer können interaktive Diagramme und Schlüsselstatistiken erforschen, um Muster und Korrelationen aufzudecken, die Einblicke für Pendler und Planer bieten."

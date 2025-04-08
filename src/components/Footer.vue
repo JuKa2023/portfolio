@@ -1,7 +1,7 @@
 <template>
     <footer class="w-full bg-purple-200 shadow-inner mt-16">
       <div class="container mx-auto py-8 px-6">
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex flex-col md:flex-row justify-between items-left">
           <div class="mb-4 md:mb-0">
             <p class="text-gray-700 font-medium">© {{ new Date().getFullYear() }} Juliette Kauflin. All rights reserved.</p>
           </div>
