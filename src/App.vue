@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import ContactSection from './components/ContactSection.vue';
-import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import HeroSection from './components/HeroSection.vue';
 import ProjectCard from './components/ProjectCard.vue';
@@ -41,8 +40,8 @@ setDescription('Hierbei handelt es sich um einen überblick dreier meiner besten
     <Header />
     <HeroSection />
     <main class="container mx-auto px-6 space-y-24">
-      <section id="projects" class="container mx-auto px-6 py-16 space-y-24">
-        <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">My Projects</h2>
+      <section id="projects" class="mx-auto px-6 py-16 space-y-24">
+        <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">Meine Projekte</h2>
         <ProjectCard
           title="Data Story on Train Delays"
           description="Zugverspätung & Wetter ist eine Webanwendung, die analysiert, wie sich die Wetterbedingungen auf Zugverspätungen in der Schweiz auswirken. Benutzer können interaktive Diagramme und Schlüsselstatistiken erforschen, um Muster und Korrelationen aufzudecken, die Einblicke für Pendler und Planer bieten."

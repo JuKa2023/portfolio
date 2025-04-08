@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,6 +20,7 @@ a {
   color: #fb9973;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #f7b397;
 }
@@ -48,9 +49,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #f7b397;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -61,10 +64,9 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0 0;
   text-align: center;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: light) {
@@ -77,5 +79,35 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
+  /* Reduce overall font-size to accommodate smaller screens */
+  html {
+    font-size: 14px;
+  }
+
+  /* Adjust body padding and layout */
+  body {
+    flex-direction: column;
+    padding: 0 0rem;
+  }
+
+  /* Scale down headings for improved readability on phones */
+  h1 {
+    font-size: 2.2em;
+  }
+
+  /* Adjust padding for card components */
+  .card {
+    padding: 0.5em;
+  }
+
+  /* Tweak button sizes for better mobile touch targets */
+  button {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
   }
 }

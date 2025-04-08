@@ -13,7 +13,7 @@
                     </p>
                 </div>
                 
-                <div class="mt-10 flex flex-wrap justify-center gap-6">
+                <div class="mt-10 flex flex-wrap justify-center gap-10">
                     <a href="/resume.pdf" class=" icon-text-button px-6 py-3 text-gray-700 font-medium rounded-full border flex items-center">
                         Resume
                     </a>

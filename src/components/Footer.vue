@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full bg-purple-200 shadow-inner mt-16">
+    <footer class="w-full bg-purple-200 shadow-top-md mt-16">
       <div class="container mx-auto py-8 px-6">
         <div class="flex flex-col md:flex-row justify-between items-left">
           <div class="mb-4 md:mb-0">
@@ -26,3 +26,11 @@
 
 <script setup lang="ts">
 </script>
+
+<style>
+  .shadow-top-md {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full py-16 px-6 mx-auto">
+    <section class="w-full container py-16 px-6 mx-auto">
         <div class="container px-6">
             <div class="max-w-2xl text-left">
                 <h1 class="text-5xl font-bold text-gray-800 text-left">Hallo, du.<br><span class="text-purple-600">Ich bin Juliette</span></h1>
