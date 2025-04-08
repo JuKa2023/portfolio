@@ -39,16 +39,16 @@ setDescription('Hierbei handelt es sich um einen überblick dreier meiner besten
   <div class="min-h-screen flex flex-col bg-white w-full m-0">
     <Header />
     <HeroSection />
-    <main class="container mx-auto px-6 space-y-24">
-      <section id="projects" class="mx-auto px-6 py-16 space-y-24">
+    <main class="container mx-auto space-y-24">
+      <section id="projects" class="mx-auto py-24 space-y-24">
         <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">Meine Projekte</h2>
         <ProjectCard
           title="Data Story on Train Delays"
           description="Zugverspätung & Wetter ist eine Webanwendung, die analysiert, wie sich die Wetterbedingungen auf Zugverspätungen in der Schweiz auswirken. Benutzer können interaktive Diagramme und Schlüsselstatistiken erforschen, um Muster und Korrelationen aufzudecken, die Einblicke für Pendler und Planer bieten."
           :tags="['MariaDB', 'Tailwind CSS', 'Chart.js', 'APIs']"
           :image="DataStorypng"
-          link="https://im3julie.rigged-motion.com/"
-          github="https://github.com/JuKa2023/rigged-motion-web"
+          link="https://train-delay.juka.dev/"
+          github="https://github.com/JuKa2023/im3-train-delay-analysis"
         />
         <ProjectCard
           title="Date Idea Finder"

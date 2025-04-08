@@ -1,6 +1,6 @@
 <template>
-  <div class="flex px-6 flex-col md:flex-row md:items-start gap-x-16 space-x-0 md:space-x-8">
-    <img :src="image" alt="Project Image" class="w-full md:w-1/3 shadow-md" />
+  <div class="flex px-6 flex-col md:flex-row md:items-start gap-x-16 space-y-8 md:space-x-8">
+    <img :src="image" alt="Project Image" class="md:w-1/3 shadow-md mx-auto" />
 
     <div class="mb-4 md:w-2/3 flex flex-col justify-between h-full text-left">
       <h2 class="text-gray-700 text-2xl font-semibold underline underline-offset-16 text-left">
