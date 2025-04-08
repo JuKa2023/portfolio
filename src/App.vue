@@ -37,10 +37,10 @@ setDescription('Hierbei handelt es sich um einen überblick dreier meiner besten
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-gray-50">
+  <div class="min-h-screen flex flex-col bg-white w-full m-0">
     <Header />
     <HeroSection />
-    <main class="flex-grow">
+    <main class="container mx-auto px-6 space-y-24">
       <section id="projects" class="container mx-auto px-6 py-16 space-y-24">
         <h2 class="text-3xl font-bold text-purple-600 px-6 mb-12 text-left">My Projects</h2>
         <ProjectCard
