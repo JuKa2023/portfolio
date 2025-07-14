@@ -5,12 +5,6 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Möchtest du mir was mitteilen?</h2>
                 <div class="mt-6 text-lg text-gray-700">
                     <p class="mb-4">Ich würde mich freuen von dir zu hören.</p>
-                    <p class="mb-8">
-                        Schicke mir eine Email unter 
-                        <a href="mailto:juliette.kauflin@gmail.com" class="text-purple-600 hover:text-purple-800 font-medium transition-colors duration-200">
-                            juliette.kauflin@gmail.com
-                        </a>
-                    </p>
                 </div>
                 
                 <div class="mt-10 flex flex-wrap justify-center gap-10">
